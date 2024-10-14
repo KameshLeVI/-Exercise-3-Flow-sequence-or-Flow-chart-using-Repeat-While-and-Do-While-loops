@@ -20,10 +20,10 @@ Start a new project in UiPath Studio by creating a Blank Process.
 Create an integer variable counter and initialize it with 0.
 
 # Designing the Flow Sequence:
-Step 1:
-Add a Flowchart to the workspace from the Activities panel.
-Step 2: 
-Drag and drop the following control activities into the flowchart.
+Step 1: Add a Flowchart to the workspace from the Activities panel.
+
+Step 2: Drag and drop the following control activities into the flowchart.
+
 Repeat Loop: Repeat Number of Times activity"
 In the log message  give the message ad "System.DateTime.Now.Hour<12  and Log level as Trace
 Inside the loop, use Assign activity to increment counter = counter + 1.
